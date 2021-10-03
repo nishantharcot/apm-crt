@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Apm-Crt Test</title>
+  </head>
+  <body>
+
+    <!-- <h1>Apm Crt Test</h1> -->
+    
+    <h3>
+      DEMOGRAPHIC SURVEY 
+    </h3>
+
+    <p>
+      In this section, we would be asking for your demographic information. <br> <br>
+
+      Each question consists of various responses. You are required to choose the option that is closest to your current status. <br> <br>
+
+      Please fill all questions seriously. <br> <br>
+
+      Please fill in the following details <br> <br>
+    </p>
+
+
+    <form class="cf">
+      <div class="half left cf">
+        <input type="number" id="input-name" placeholder="Age">
+        <!-- <input type="email" id="input-email" placeholder="Email address"> -->
+        <!-- <input type="text" id="input-subject" placeholder="Subject"> -->
+
+
+      </div>
+      <!-- <div class="half right cf">
+        <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+      </div>   -->
+      <!-- <input type="submit" value="Submit" id="input-submit"> -->
+    </form>
+    <div>
+      <p>Gender</p>
+      <input type="radio" id="male" name="Gender" value="Male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="Gender" value="Female">
+      <label for="female">Female</label><br>
+      <input type="text" id="input-subject" placeholder="Other">
+    </div>
+
+    <div class="rotate">
+      <a href="./basic-details.html">
+        <button class="navigation">
+          Prev
+        </button>
+      </a>
+      
+      <a href="./general-guidelines.html">
+        <button class="navigation">
+          Next
+        </button>
+      </a>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBQLx4w5D9w1ghTBZvVk17tEmJVuam1IVc",
+        authDomain: "crt-apm-project.firebaseapp.com",
+        projectId: "crt-apm-project",
+        storageBucket: "crt-apm-project.appspot.com",
+        messagingSenderId: "579556033041",
+        appId: "1:579556033041:web:2c02860f95d9b6571867b0",
+        measurementId: "G-8QS7TGDDSK"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+  </body>
+</html>

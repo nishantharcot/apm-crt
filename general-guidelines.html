@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Apm-Crt Test</title>
+  </head>
+  <body>
+
+    <!-- <h1>Apm Crt Test</h1> -->
+    
+    <h3>
+      GENERAL GUIDELINES
+    </h3>
+
+    <p>
+      1. Do the experiment in a quiet place free from distractions for the whole duration of the experiment. <br> <br>
+
+      2. Please try to finish each task in a single sitting. Do not take breaks within the same task. <br> <br>
+      
+      3. Please make sure that you have a steady internet connection during the whole experiment. If you fear that there is an issue with your net, please send a mail with your id, and screen recording. <br> <br>
+      
+      4. This experiment is designed to be done in your mobile phone. For the experiment, kindly turn on landscape mode on your mobile phone, and keep your phone in silent/do not disturb mode. <br> <br>
+      
+      5. The experiment requires you to record your screen during the whole experiment duration. So please ensure that you have sufficient storage space in your phone for recording your screen. <br> <br>
+      
+      6. Sit upright and at a comfortable distance from your mobile screen. Be relaxed during the whole experiment, and do not rush through any of the tasks. <br> <br>
+      
+      7. In the questionnaires, do not dwell on any single question. However, answer every question sincerely to the best of your ability. In the tasks, ensure that whatever you have done is correct according to you, do not rush through the tasks. <br> <br>
+    </p>
+
+    <div class="rotate">
+      <a href="./consent-form.html">
+        <button class="navigation">
+          Prev
+        </button>
+      </a>
+      
+      <a href="./demographic-survey.html">
+        <button class="navigation">
+          Next
+        </button>
+      </a>
+    </div>
+
+    <!-- <form class="cf">
+      <div class="half left cf">
+        <input type="text" id="input-name" placeholder="Name">
+        <input type="email" id="input-email" placeholder="Email address">
+        <input type="text" id="input-subject" placeholder="Subject">
+      </div>
+      <div class="half right cf">
+        <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+      </div>  
+      <input type="submit" value="Submit" id="input-submit">
+    </form> -->
+
+    
+
+
+
+
+
+
+
+
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBQLx4w5D9w1ghTBZvVk17tEmJVuam1IVc",
+        authDomain: "crt-apm-project.firebaseapp.com",
+        projectId: "crt-apm-project",
+        storageBucket: "crt-apm-project.appspot.com",
+        messagingSenderId: "579556033041",
+        appId: "1:579556033041:web:2c02860f95d9b6571867b0",
+        measurementId: "G-8QS7TGDDSK"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+  </body>
+</html>

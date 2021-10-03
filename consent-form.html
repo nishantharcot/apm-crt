@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Apm-Crt Test</title>
+  </head>
+  <body>
+
+    <!-- <h1>Apm Crt Test</h1> -->
+    
+    <h3>
+      Consent Form
+    </h3>
+
+    <p>
+      Please read the following information carefully and click on "Yes, I agree" below if you consent to volunteer for the experiment.
+
+      <ul>
+        <li>
+          Your participation in this experiment is entirely voluntary. You can choose to withdraw from this study at any point in time. However, for the benefit of the study, please consider seeing it through till the end.
+        </li> <br>
+        <li>
+          Your participation will be completely anonymous. No personal identifiable information would be stored. All data kept will be purely confidential, and used only for research purposes. The data will be accessible only to those working on the project.
+        </li> <br>
+        <li>
+          There are no anticipated risks to the participants.  
+        </li> <br>
+        <li>
+          You will be compensated Rs. 100 for your time. (via UPI id) 
+        </li>
+      </ul>
+
+       
+
+      After taking into account the requirements of this study, if you are ready to contribute, please give your consent by ticking on the checkbox (provided below). <br> <br>
+
+      We are really grateful for your contribution to our research. <br> <br>
+
+      I have read the aforementioned information carefully. Any questions pertaining to this experiment have been answered to my best satisfaction. I hereby voluntarily agree to participate in this project. <br> <br>
+
+      <input type="checkbox" id="agree" name="agree" value="Agree">
+      <label for="agree"> I Agree</label><br>
+
+
+    </p>
+
+    <div class="rotate">
+      <a href="./basic-details.html">
+        <button class="navigation">
+          Prev
+        </button>
+      </a>
+      
+      <a href="./general-guidelines.html">
+        <button class="navigation">
+          Next
+        </button>
+      </a>
+    </div>
+
+    <!-- <form class="cf">
+      <div class="half left cf">
+        <input type="text" id="input-name" placeholder="Name">
+        <input type="email" id="input-email" placeholder="Email address">
+        <input type="text" id="input-subject" placeholder="Subject">
+      </div>
+      <div class="half right cf">
+        <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+      </div>  
+      <input type="submit" value="Submit" id="input-submit">
+    </form> -->
+
+    
+
+
+
+
+
+
+
+
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBQLx4w5D9w1ghTBZvVk17tEmJVuam1IVc",
+        authDomain: "crt-apm-project.firebaseapp.com",
+        projectId: "crt-apm-project",
+        storageBucket: "crt-apm-project.appspot.com",
+        messagingSenderId: "579556033041",
+        appId: "1:579556033041:web:2c02860f95d9b6571867b0",
+        measurementId: "G-8QS7TGDDSK"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+  </body>
+</html>
